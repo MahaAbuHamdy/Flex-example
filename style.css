@@ -1,0 +1,203 @@
+body{
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+nav.main{
+    background-color: rgb(90, 90, 90);
+    height: 45px;
+}
+
+div.body-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.left{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+div.L-up{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:0;
+}
+
+div.L-up div.Header {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    width: 100%; 
+}
+
+div.L-up div.Header div{
+    height: 20px;
+    width:90px;
+    background-color:#bababa ;
+    display: inline-flex;
+}
+
+div.L-up div.Header div#first{
+    height: 20px;
+    width:90px;
+    background-color:rgb(90, 90, 90); ;
+    display: inline-flex;
+}
+
+.arrow {
+    margin-left: auto; 
+}
+
+.arrow p {
+    display: inline-flex;
+    margin: 0;
+
+}
+
+
+div.L-up div.content{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(90, 90, 90);;
+}
+
+div.L-down{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.L-down div.items{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 17%;
+}
+
+div.L-down div.items img{
+    background-color: #d5d5d5;
+    height: 100px;
+    width: 100%; /* if i need the size fixed i set 90px "don't chand with scrol page"*/
+    gap: 5px;
+}
+
+p#first{
+    background-color: #e2e0e0;
+    height: 10px;
+    width: 100%; /* if i need the size fixed i set 90px "don't chand with scrol page" */
+    margin-bottom: 6px;
+}
+
+p#second{
+    background-color: #e2e0e0;
+    height: 10px;
+    width: 100%; /* if i need the size fixed i set 90px "don't chand with scrol page" */
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+div.right{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+div.R-up{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+div.R-up div.Header{
+    display: inline-flex ;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+div.R-up div.Header div{
+    height: 15px;
+    width:20px;
+    background-color:#bababa ;
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+div.R-up div.content div{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(166, 166, 166);
+}
+
+div.R-down{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   /* flex-wrap: wrap;
+    gap:15px;*/
+}
+
+div.R-down div.head-items{
+    height: 25px;
+    width: 100%;
+    background-color: rgb(166, 166, 166); 
+}
+
+div.R-down div.item{ 
+    display: inline-flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+div.R-down div.item img{
+    background-color: #d5d5d5;
+    height: 100px;
+    width: 80px;
+    float: left;
+    margin-top: 12px;
+}
+
+div.R-down div.item p{
+    background-color: #e2e0e0;
+    height: 10px;
+    width: 400px;
+    /* flex-wrap: wrap;*/
+    margin : 12px;
+    margin-right: 0;
+}
+
+div.line p{
+    background-color: #e2e0e0;
+    height: 10px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 8px;
+
+}
+
+div.R-down div.line-between-items{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(166, 166, 166); 
+    margin-bottom: 7px;
+}
+
+nav.footer{
+    background-color: rgb(185, 185, 185);
+    height: 20px;
+}
